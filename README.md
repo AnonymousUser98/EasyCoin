@@ -18,6 +18,7 @@ After all that, they'll finally get to the impossible CAPTCHAs.
 The user should start at `welcome.html`.\
 I haven't added any code to actually collect the info entered into forms by the scammer.\
 I used a template from TemplateMo to make this website.\
-A few of the original files from the template are unused in this project.
+A few of the original files from the template are unused in this project.\
+I haven't added any functionality to the _Add Funds_ button on the dashboard.
 
-If you have any improvements, feel free to fork this repo and take over the project.
+If you have any improvements, please fork this repo and take over the project.

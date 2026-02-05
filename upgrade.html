@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EasyCoin Express</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="templatemo-glass-admin-style.css">
+	<!--
+
+TemplateMo 607 Glass Admin
+
+https://templatemo.com/tm-607-glass-admin
+
+-->
+</head>
+<body>
+	<!-- Animated Background -->
+	<div class="background"></div>
+	<div class="orb orb-1"></div>
+	<div class="orb orb-2"></div>
+	<div class="orb orb-3"></div>
+
+	<div class="login-page">
+		<!-- Theme Toggle -->
+		<button class="theme-toggle-float" id="theme-toggle" title="Toggle Light/Dark Mode">
+			<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/>
+				<path d="M4.93 4.93l1.41 1.41"/><path d="M17.66 17.66l1.41 1.41"/>
+				<path d="M2 12h2"/><path d="M20 12h2"/>
+				<path d="M6.34 17.66l-1.41 1.41"/><path d="M19.07 4.93l-1.41 1.41"/>
+			</svg>
+			<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+				<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+			</svg>
+		</button>
+
+		<div class="login-container" style="max-width: 1000px;">
+			<div class="login-card">
+				<div class="login-header">
+					<!--<img src="assets/logo.svg" height=120>-->
+					<h1 class="login-title">Don't limit yourself to just Bitcoin.</h1>
+					<p class="login-subtitle" style="font-size: 18px; color: #bbb; margin-top: 0px;">Upgrade to EasyCoin Express and get 50% OFF!</p>
+				</div>
+
+				<div id="plans">
+					<!-- I have added some unused class properties so that you can easily add grey minuses and green check marks to the bullet points -->
+					<div class="account-plan" id="basic-plan">
+						<h1>EasyCoin Standard</h1>
+						<ul class="plan-features" id="basic-plan-list">
+							<li class="green" data-id="security-type">Keeps your funds secure with MLKEM-768</li>
+							<li class="green" data-id="support-type">World-class customer support team</li>
+							<li class="grey" data-id="coin-supported">Supports BTC only</li>
+							<li class="grey" data-id="fees">5% transfer fee</li>
+							<li class="grey" data-id="process-time">Regular processing takes 24 hours</li>
+							<li class="grey" data-id="monthly-limit">Transfer up to $1000 every month</li>
+						</ul>
+						<!--<div class="spacer"></div>-->
+						<button class="btn btn-secondary" id="choose-basic-plan" onclick="window.location.assign('index.html');">Continue</button>
+					</div>
+					<div class="account-plan" id="express-plan">
+						<h1>EasyCoin Express</h1>
+						<ul class="plan-features" id="express-plan-list">
+							<li class="green" data-id="security-type">Uses MLKEM-1024 for maximum security</li>
+							<li class="green" data-id="support-type">High-priority support team with no wait times</li>
+							<li class="green" data-id="coin-supported">Supports BTC, LTC, ETH, and USDT</li>
+							<li class="green" data-id="fees">No transfer fees</li>
+							<li class="green" data-id="process-time">Get your funds in as little as 5 minutes with QuantumCoin™ Express</li>
+							<li class="green" data-id="monthly-limit">Transfer as much money as you want with no limits</li>
+						</ul>
+						<!--<div class="spacer"></div>-->
+						<button class="btn btn-primary" id="choose-express-plan" onclick="alert('Error 1478: service unavailable');">Upgrade - $5.99/month</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="site-footer">
+			<p>Copyright © 2026 EasyCoin. Designed by <a href="https://templatemo.com" target="_blank" rel="nofollow">TemplateMo</a></p>
+		</footer>
+	</div>
+
+	<script src="templatemo-glass-admin-script.js"></script>
+	<!-- TemplateMo 607 Glass Admin -->
+</body>
+</html>
